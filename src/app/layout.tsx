@@ -16,7 +16,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        {/* Ensure dark theme is applied if needed, or remove if :root handles it */}
+        {/* Next.js will automatically manage viewport and charset, no need to add them manually */}
+        <link rel="icon" href="data:," /> {/* This sets a blank favicon to override defaults */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
