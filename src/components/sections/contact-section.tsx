@@ -26,7 +26,7 @@ export default function ContactSection() {
 
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
           <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground transition-transform duration-300 transform hover:scale-105">
-            <Link href="https://x.com/garvaditya" target="_blank" rel="noopener noreferrer">
+            <Link href="https://x.com/gravyie" target="_blank" rel="noopener noreferrer">
               <XLogo /> X (Twitter)
             </Link>
           </Button>

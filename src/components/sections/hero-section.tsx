@@ -45,7 +45,7 @@ export default function HeroSection() {
                 <Linkedin className="h-5 w-5" />
               </Button>
             </Link>
-            <Link href="https://x.com/garvaditya" target="_blank" rel="noopener noreferrer" aria-label="Garv's X (Twitter) Profile">
+            <Link href="https://x.com/gravyie" target="_blank" rel="noopener noreferrer" aria-label="Garv's X (Twitter) Profile">
               <Button variant="outline" size="icon" className="rounded-full hover:bg-accent/20 hover:border-accent transition-all duration-300 transform hover:scale-110">
                 <XLogo />
               </Button>
