@@ -15,6 +15,7 @@ const projects = [
     title: "AI Powered Blog Generator",
     description: "A full-stack application that leverages AI (Gemini Pro) to generate blog posts based on user prompts. Features user authentication and blog management.",
     techStack: ["Next.js", "React", "Tailwind CSS", "Gemini Pro API", "Firebase Auth", "Firestore"],
+    liveLink: "#", // Added placeholder
     repoLink: "https://github.com/garv-codes/ai-blog-generator",
     imageUrl: "https://placehold.co/600x400.png",
     imageHint: "artificial intelligence writing"
@@ -23,6 +24,7 @@ const projects = [
     title: "Real-time Collaborative Whiteboard",
     description: "A web application enabling multiple users to draw and collaborate on a shared whiteboard in real-time using WebSockets.",
     techStack: ["React", "Node.js", "Express", "Socket.io", "Canvas API"],
+    liveLink: "#", // Added placeholder
     repoLink: "https://github.com/garv-codes/collaborative-whiteboard",
     imageUrl: "https://placehold.co/600x400.png",
     imageHint: "team collaboration drawing"
@@ -31,6 +33,7 @@ const projects = [
     title: "Weather Forecast PWA",
     description: "A Progressive Web App that provides current weather information and forecasts using a third-party weather API. Optimized for mobile and offline use.",
     techStack: ["Vue.js", "PWA", "OpenWeatherMap API", "Axios"],
+    liveLink: "#", // Added placeholder
     repoLink: "https://github.com/garv-codes/weather-pwa",
     imageUrl: "https://placehold.co/600x400.png",
     imageHint: "weather application interface"
