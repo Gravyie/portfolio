@@ -20,14 +20,6 @@ export default function HomePage() {
         <Separator className="bg-border/50" />
         <ContactSection />
       </main>
-      <footer className="py-8 bg-card border-t border-border text-center">
-        <p className="text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Garv. All rights reserved.
-        </p>
-        <p className="text-xs text-muted-foreground/70 mt-1">
-          Crafted with <span className="text-primary">&hearts;</span> using Next.js and Tailwind CSS.
-        </p>
-      </footer>
     </div>
   );
 }
