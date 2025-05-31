@@ -3,40 +3,33 @@ import ProjectCard from "./project-card";
 
 const projects = [
   {
-    title: "My Digital Canvas",
-    description: "The personal portfolio website you are currently viewing. Built with Next.js and styled with Tailwind CSS, featuring a modern and minimalist design.",
-    techStack: ["Next.js", "React", "Tailwind CSS", "TypeScript", "Shadcn UI"],
-    liveLink: "#hero", 
-    repoLink: "https://github.com/garv-codes/portfolio",
-    imageUrl: "https://placehold.co/600x400.png",
-    imageHint: "portfolio website design"
+    title: "Konet Hub",
+    description: "A platform connecting students, faculty, alumni, and staff of an institution to raise concerns, share announcements, and organize events. Focused on secure, authenticated access and community-driven communication.",
+    techStack: ["MongoDB", "Express.js", "React", "Node.js", "JWT", "Tailwind CSS"], // techStack remains for data, not displayed
+    liveLink: "https://konet-hub.vercel.app/",
+    repoLink: "https://github.com/Gravyie/KonetHub",
+    imageUrl: "/images/konethub-image.png",
+    imageHint: "Konet-Hub app interface showing discussion and event sections"
   },
   {
-    title: "AI Powered Blog Generator",
-    description: "A full-stack application that leverages AI (Gemini Pro) to generate blog posts based on user prompts. Features user authentication and blog management.",
-    techStack: ["Next.js", "React", "Tailwind CSS", "Gemini Pro API", "Firebase Auth", "Firestore"],
-    liveLink: "#", // Added placeholder
-    repoLink: "https://github.com/garv-codes/ai-blog-generator",
-    imageUrl: "https://placehold.co/600x400.png",
-    imageHint: "artificial intelligence writing"
+    title: "Nuvue",
+    description: "A real-time theme engine that dynamically adapts website themes based on system preferences, user input, and time of day. Built for seamless accessibility and smoother user experience.",
+    techStack: ["React", "CSS Variables", "Context API", "Local Storage", "Tailwind CSS"],
+    liveLink: "https://nuvue-vibe.vercel.app/",
+    repoLink: "https://github.com/Gravyie/Nuvue",
+    imageUrl: "/images/nuvue-image.png",
+    imageHint: "Theme switcher interface with light dark auto modes"
   },
   {
-    title: "Real-time Collaborative Whiteboard",
-    description: "A web application enabling multiple users to draw and collaborate on a shared whiteboard in real-time using WebSockets.",
-    techStack: ["React", "Node.js", "Express", "Socket.io", "Canvas API"],
-    liveLink: "#", // Added placeholder
-    repoLink: "https://github.com/garv-codes/collaborative-whiteboard",
+    title: "Lokal",
+    description: "A local service and business platform designed to connect users with nearby household helpers and small vendors. Built with a user-first approach, Lokal simplifies access to trusted, location-based services.",
+    techStack: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS", "Google Maps API"],
+    // liveLink and repoLink removed/commented out for Lokal
+    // liveLink: "#", 
+    // repoLink: "https://github.com/garv-codes/lokal",
+    status: "development", // Added status for Lokal
     imageUrl: "https://placehold.co/600x400.png",
-    imageHint: "team collaboration drawing"
-  },
-   {
-    title: "Weather Forecast PWA",
-    description: "A Progressive Web App that provides current weather information and forecasts using a third-party weather API. Optimized for mobile and offline use.",
-    techStack: ["Vue.js", "PWA", "OpenWeatherMap API", "Axios"],
-    liveLink: "#", // Added placeholder
-    repoLink: "https://github.com/garv-codes/weather-pwa",
-    imageUrl: "https://placehold.co/600x400.png",
-    imageHint: "weather application interface"
+    imageHint: "Lokal interface service categories nearby providers"
   }
 ];
 

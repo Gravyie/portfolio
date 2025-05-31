@@ -10,10 +10,14 @@ const skills = [
   { name: "React", icon: <Cog className="h-5 w-5" /> }, // Using Cog as a generic for frameworks
   { name: "Next.js", icon: <Cog className="h-5 w-5" /> },
   { name: "Tailwind CSS", icon: <Palette className="h-5 w-5" /> }, // Using Palette for styling
+  { name: "CSS", icon: <Palette className="h-5 w-5" /> },
+  { name: "HTML", icon: <Code className="h-5 w-5" /> },
   { name: "Node.js", icon: <Database className="h-5 w-5" /> }, // Using Database as generic for backend
-  { name: "Firebase", icon: <Database className="h-5 w-5" /> },
+  { name: "MongoDB", icon: <Database className="h-5 w-5" /> },
   { name: "Python", icon: <Code className="h-5 w-5" /> },
-  { name: "Genkit", icon: <Wind className="h-5 w-5" /> }, // Using Wind as a generic for AI/GenAI
+  { name: "Express", icon: <Database className="h-5 w-5" /> },
+  { name: "C", icon: <Code className="h-5 w-5" /> },
+
 ];
 
 export default function SkillsSection() {

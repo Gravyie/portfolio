@@ -3,16 +3,17 @@ import Image from "next/image";
 import Link from "next/link";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, Info } from "lucide-react";
 
 interface ProjectCardProps {
   title: string;
   description: string;
-  techStack: string[]; // Keep for data structure, but won't display
+  techStack: string[];
   liveLink?: string;
   repoLink?: string;
   imageUrl: string;
   imageHint: string;
+  status?: string; // Added status prop
 }
 
 export default function ProjectCard({
@@ -22,7 +23,8 @@ export default function ProjectCard({
   liveLink,
   repoLink,
   imageUrl,
-  imageHint
+  imageHint,
+  status
 }: ProjectCardProps) {
   return (
     <Card className="flex flex-col h-full bg-card border-border shadow-lg hover:shadow-primary/20 transition-shadow duration-300 overflow-hidden rounded-lg group">
@@ -50,18 +52,25 @@ export default function ProjectCard({
         {/* Tech stack display removed */}
       </CardContent>
       <CardFooter className="p-6 pt-0 border-t border-border/50 mt-auto">
-        <div className="flex space-x-4">
-          <Button asChild variant="outline" size="sm" className="hover:bg-primary hover:text-primary-foreground hover:border-primary transition-colors group-hover:border-accent group-hover:text-accent-foreground">
-            <Link href={liveLink || "#"} target="_blank" rel="noopener noreferrer">
-              <ExternalLink className="mr-2 h-4 w-4" /> Live Demo
-            </Link>
-          </Button>
-          <Button asChild variant="ghost" size="sm" className="hover:bg-secondary hover:text-secondary-foreground transition-colors group-hover:border-accent group-hover:text-accent-foreground">
-            <Link href={repoLink || "#"} target="_blank" rel="noopener noreferrer">
-              <Github className="mr-2 h-4 w-4" /> View Code
-            </Link>
-          </Button>
-        </div>
+        {status === "development" ? (
+          <div className="flex items-center text-sm text-muted-foreground">
+            <Info className="mr-2 h-4 w-4 text-primary" />
+            Under development
+          </div>
+        ) : (
+          <div className="flex space-x-4">
+            <Button asChild variant="outline" size="sm" className="hover:bg-primary hover:text-primary-foreground hover:border-primary transition-colors group-hover:border-accent group-hover:text-accent-foreground">
+              <Link href={liveLink || "#"} target="_blank" rel="noopener noreferrer">
+                <ExternalLink className="mr-2 h-4 w-4" /> Live Demo
+              </Link>
+            </Button>
+            <Button asChild variant="ghost" size="sm" className="hover:bg-secondary hover:text-secondary-foreground transition-colors group-hover:border-accent group-hover:text-accent-foreground">
+              <Link href={repoLink || "#"} target="_blank" rel="noopener noreferrer">
+                <Github className="mr-2 h-4 w-4" /> View Code
+              </Link>
+            </Button>
+          </div>
+        )}
       </CardFooter>
     </Card>
   );
