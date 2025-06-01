@@ -21,6 +21,15 @@ const projects = [
     imageHint: "Theme switcher interface with light dark auto modes"
   },
   {
+    title: "Lumine",
+    description: "Lumine is a web application that visualizes 2D images as 3D objects within an interactive Three.js scene. Users can upload images, manipulate the 3D model, and customize the scene by toggling wireframe mode, adjusting ambient and directional lighting, and changing the background color.",
+    techStack: ["NextJS", "React", "TypeScript", "Three.js", "ShadCN UI", "Tailwind CSS"],
+    liveLink: "https://lumine3d.vercel.app/",
+    repoLink: "https://github.com/Gravyie/lumine",
+    imageUrl: "/images/lumine-image.png",
+    imageHint: "abstract light"
+  },
+  {
     title: "Lokal",
     description: "A local service and business platform designed to connect users with nearby household helpers and small vendors. Built with a user-first approach, Lokal simplifies access to trusted, location-based services.",
     techStack: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS", "Google Maps API"],
@@ -28,7 +37,7 @@ const projects = [
     // liveLink: "#", 
     // repoLink: "https://github.com/garv-codes/lokal",
     status: "development", // Added status for Lokal
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: "/images/lokal-image.png",
     imageHint: "Lokal interface service categories nearby providers"
   }
 ];

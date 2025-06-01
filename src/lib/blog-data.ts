@@ -9,20 +9,37 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    slug: "my-journey-into-web-development",
-    title: "My Journey into Web Development",
-    date: "June 1, 2024",
-    snippet: "A brief look into how I started my journey in the world of web development, the challenges I faced, and the exciting projects I've worked on. Click to read more!",
+    slug: "my-journey-into-web-development-and-dsa",
+    title: "My Journey into Web Development and DSA",
+    date: "March 3, 2025",
+    snippet: "A brief look into how I started my journey in the world of web development(and DSA), the challenges I faced, and the exciting projects I've worked on. Click to read more!",
     content: `
-      <p>This is the full story of my journey into web development. It all started with a curious spark when I first tweaked a piece of HTML and saw the results live in a browser. That moment of creation was incredibly empowering.</p>
-      <p>I dived deeper, learning about CSS to style my creations and JavaScript to bring them to life with interactivity. The learning curve was steep, filled with late nights, debugging frustrations, and the thrill of finally making something work.</p>
-      <h2>First Steps & Challenges</h2>
-      <p>My first encounter with "real" code beyond simple HTML/CSS was through a basic JavaScript tutorial. I was amazed by how a few lines of text could create dynamic experiences on a screen. However, concepts like scope, asynchronous operations, and the DOM were initially challenging. I relied heavily on online communities, documentation, and building small, experimental projects to solidify my understanding.</p>
-      <h2>Learning Frameworks and Expanding Horizons</h2>
-      <p>As I grew more comfortable with vanilla JavaScript, I started exploring frameworks. React, with its component-based architecture, was a revelation. It changed how I approached building UIs, making them more modular and manageable. Soon after, I discovered Next.js, which took my development workflow to another level with features like server-side rendering, routing, and API routes. This allowed me to build more complex, performant full-stack applications.</p>
-      <p>Alongside front-end development, I ventured into the back-end with Node.js and Express, and learned to work with databases like MongoDB. Understanding the full stack gave me a more holistic view of web applications.</p>
-      <h2>Projects and Growth</h2>
-      <p>Each project, from simple to-do apps to more complex platforms like Konet Hub and Nuvue, taught me invaluable lessons not just about coding, but also about problem-solving, project management, and user experience. The journey is ongoing, and with technologies like AI and Web3 on the rise, I'm excited to keep learning and building!</p>
+      <p>When I first got into tech, it wasn’t some cinematic “aha” moment. I was just curious. Curious about how websites worked. Curious about why everyone said DSA was the "key to everything." Curious about what I could create with just a keyboard and logic. That curiosity slowly grew into something bigger..</p>
+      <h2>Starting Out: Clueless but Curious</h2>
+      <p>Should I do DSA first? Or make websites? Or learn Python? Everyone had advice, and all of it conflicted. So I made a deal with myself: I’ll do both — but I’ll do it my way.</p>
+      <h2>DSA: The Mental Gym</h2>
+      <p>I began with Java. Then dove into LeetCode and a few other platforms. At first, even solving basic problems took me way too long. But the satisfaction of finally cracking a solution? Addictive.</p>
+      <p>I started appreciating how problems had layers — and solving them made me feel like I was levelling up not just as a coder, but as a thinker. It wasn’t easy, but it was real. Especially when I started noticing how my logic evolved outside of code too. Even today, I go back to DSA as a way to sharpen myself — especially when web dev starts feeling too “drag-and-drop.”</p>
+      <h2>Web Dev: My Creative Escape</h2>
+      <p>I’ve always liked creating things that feel alive. That’s what drew me to Web Dev.</p>
+      <p>From building NuVue for a hackathon, to developing KoNet as part of a college project, to now ideating and building LoKAL — a platform designed to connect local service providers and small businesses — I’ve realised that building for the web is where I come alive.</p>
+      <p>The first time I deployed on Vercel and saw my own work live? Magic.</p>
+      <p>The first time something broke after a push? Humbling.</p>
+      <p>The first time I fixed it without Googling? Growth.</p>
+      <p>Frontend taught me design. Backend taught me structure. GitHub taught me version control. And late nights taught me patience.</p>
+      <h2>Where I’m At — And Where I’m Headed</h2>
+      <p>Right now?</p>
+      <p>I’m polishing my full-stack skills.</p>
+      <p>Learning APIs through hands-on mini projects.</p>
+      <p>Studying Linear Algebra alongside.</p>
+      <p>Grinding a bit of DSA to stay sharp.</p>
+      <p>And building cool stuff that I would want to use.</p>
+      <h2>To Anyone Starting Out</h2>
+      <p>You don’t need to figure it all out at once.</p>
+      <p>Try things. Drop some. Obsess over others.</p>
+      <p>Don’t just copy what works — build what matters to you.</p>
+      <p>And most of all — don’t wait to feel “ready”. I didn’t feel ready either when I wrote my first line of code or deployed my first app. But I did it anyway.</p>
+      <p>Because progress (no matter how small) > perfection.</p>
     `,
   },
 ];
