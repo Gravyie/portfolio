@@ -9,7 +9,7 @@ export default function BlogSection() {
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="font-headline text-4xl md:text-5xl font-bold mb-4">
-            Latest Posts
+            Blogs
           </h2>
           <div className="inline-block w-20 h-1 bg-primary rounded-full"></div>
         </div>

@@ -2,7 +2,6 @@
 import type { Metadata, ResolvingMetadata } from 'next'
 import Link from 'next/link';
 import { blogPosts } from '@/lib/blog-data';
-import Header from '@/components/layout/header';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft } from 'lucide-react';
 
@@ -40,7 +39,6 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   if (!post) {
     return (
       <>
-        <Header />
         <div className="container mx-auto py-16 px-4 text-center min-h-screen flex flex-col justify-center items-center">
           <div>
             <h1 className="text-4xl font-bold font-headline text-primary mb-4">Blog Post Not Found</h1>
@@ -60,7 +58,6 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
 
   return (
     <>
-      <Header />
       <main className="py-12 md:py-16 bg-background text-foreground">
         <div className="container mx-auto px-4">
           <article className="max-w-3xl mx-auto">
